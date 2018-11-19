@@ -1,0 +1,29 @@
+
+&binary_job
+
+      read_extra_binary_job_inlist1 = .true.
+      extra_binary_job_inlist1_name = 'inlist_project'
+
+/ ! end of star_job namelist
+
+
+
+&binary_controls
+
+      read_extra_binary_controls_inlist1 = .true.
+      extra_binary_controls_inlist1_name = 'inlist_project'
+m1 = 1.0d0
+m2 = 5.0d0
+initial_period_in_days = 6.79d0
+
+
+/ ! end of controls namelist
+
+
+
+&binary_pgstar
+
+      read_extra_binary_pgstar_inlist1 = .true.
+      extra_binary_pgstar_inlist1_name = 'inlist_project'
+
+/ ! end of pgstar namelist
